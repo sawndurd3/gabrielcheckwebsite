@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    <div class="backButton">
+        <a href="../index.html" class="button">&#x2190; Home Page</a>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Online Store</h1>
+            <div class="shopping">
+                <img src="image/shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+        <div class="list"></div>
+
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total" onclick="buttonClicked()" style="cursor: pointer;">Check Out</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+
+    <script>
+        function buttonClicked() {
+            alert("Your Order is Placed, Please wait for it to arrive");
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
